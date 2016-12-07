@@ -526,11 +526,9 @@ window.addEventListener('scroll',updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
-  var rows = window.screen.height / s;
-  var requiredPizzas = row *cols;
   //Reducing the limit value from 200 to 50 to reduce scripting time while scrolling
   var elemt = document.getElementById('movingPizzas1');
-  for (var i = 0; i < requiredPizzas; i++) {
+  for (var i = 0; i < 48; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";

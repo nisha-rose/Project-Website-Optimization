@@ -534,9 +534,9 @@ document.addEventListener('DOMContentLoaded', function() {
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
-    elem.style.left = (i % cols) * s + 'px';
-    elem.style.top = (Math.floor(i / cols) * s) + 'px';
     elem.basicLeft = (i % cols) * s;
+    elem.style.top = (Math.floor(i / cols) * s) + 'px';
+    elem.style.left = (i % cols) * s + 'px';
     elemt.appendChild(elem);
   }
   items = document.getElementsByClassName('mover');

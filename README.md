@@ -77,6 +77,6 @@ Desktop: 92
 6.Using backface visibility:hidden in css
 
 ###Changes made to resize pizzas in less than 5 ms:
-1.In changeSliderLabel() limiting the call to DOM tree by caching the pizzaSize element in variable 'element'
-2.Removed the determinDx method and adjusted their function in changePizzaSizes
-3.In changePizzaSizes : accessed DOM outside the for loop by caching the elements in randomPizzas
+1. In changeSliderLabel() limiting the call to DOM tree by caching the pizzaSize element in variable 'element'
+2. Removed the determinDx method and adjusted their function in changePizzaSizes
+3. In changePizzaSizes : accessed DOM outside the for loop by caching the elements in randomPizzas

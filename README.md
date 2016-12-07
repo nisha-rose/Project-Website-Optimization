@@ -64,10 +64,9 @@ Optimized url:  https://nisha-rose.github.io/nisharose.github.io/
     4.added media tags
     5.removed font API call
     6.minified index.html
-
-    PageSpeed insights scores:
-        Mobile: 90
-        Desktop: 92
+ PageSpeed insights scores:
+     Mobile: 90
+     Desktop: 92
 
 ###Changes made for getting 60fps:
     1.changed the scope of variable items into global

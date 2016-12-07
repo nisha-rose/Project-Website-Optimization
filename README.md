@@ -53,3 +53,32 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+##Changes made to meet Project specification
+-------------------------------------------------------------------------------------
+###For page speed insights :
+
+    *inlined CSS
+    *compressed images
+    *Asyc attributed added to script tags
+    *added media tags
+    *removed font API call
+
+    PageSpeed insights scores:
+        Mobile: 90
+        Desktop: 92
+
+###Changes made for getting 60fps:
+
+    1.changed the scope of variable items into global
+    2.Gets all moving pizza objects from the DOM and puts them into one array to reduce DOM access
+    3.instead of .querySelector, .getElementByClassName or .getElementById selector are used
+    4.Calculated the five phases that animate the scrolling background pizzas outside the For Loop
+    5.limiting DOM access by caching value of length in variable
+    6.Using backface visibility:hidden in css
+
+###Changes made to resize pizzas in less than 5 ms:
+
+    1.In changeSliderLabel() limiting the call to DOM tree by caching the pizzaSize element in variable 'element'
+    2.Removed the determinDx method and adjusted their function in changePizzaSizes
+    3.In changePizzaSizes : accessed DOM outside the for loop by caching the elements in randomPizzas

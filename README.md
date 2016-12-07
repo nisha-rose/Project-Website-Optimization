@@ -57,13 +57,13 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 ##Changes made to meet Project specification
 
 ###For page speed insights :
-Optimized url:  https://nisha-rose.github.io/nisharose.github.io/
 1. inlined CSS
 2. compressed images
 3. asyc attributed added to script tags
 4. added media tags
 5. removed font API call
 6. minified index.html
+Optimized url:  https://nisha-rose.github.io/nisharose.github.io/
 PageSpeed insights scores:
 Mobile: 90
 Desktop: 92

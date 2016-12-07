@@ -55,18 +55,18 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
 ##Changes made to meet Project specification
--------------------------------------------------------------------------------------
+
 ###For page speed insights :
 
-    *inlined CSS
-    *compressed images
-    *Asyc attributed added to script tags
-    *added media tags
-    *removed font API call
+    1.inlined CSS
+    2.compressed images
+    3.asyc attributed added to script tags
+    4.added media tags
+    5.removed font API call
 
     PageSpeed insights scores:
         Mobile: 90
-        Desktop: 92
+        Desktop: 91
 
 ###Changes made for getting 60fps:
 

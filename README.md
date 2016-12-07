@@ -1,10 +1,9 @@
 ## Website Performance Optimization portfolio project
 
 ###How to run:
-1. Download the *nisharose.github.io-master* folder.
-2. Open the file named *index.html*
-          *OR*
-Browse https://nisha-rose.github.io/nisharose.github.io/
+2 ways
+1. Download the *nisharose.github.io-master* folder.and open the file named *index.html*
+2. Browse https://nisha-rose.github.io/nisharose.github.io/
 
 ##Changes made to meet Project specification
 

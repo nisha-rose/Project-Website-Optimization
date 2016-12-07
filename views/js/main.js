@@ -526,16 +526,19 @@ window.addEventListener('scroll',updatePositions);
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
+  var rows = window.screen.height / s;
+  var requiredPizzas = row *cols;
   //Reducing the limit value from 200 to 50 to reduce scripting time while scrolling
   var elemt = document.getElementById('movingPizzas1');
-  for (var i = 0; i < 50; i++) {
+  for (var i = 0; i < requiredPizzas; i++) {
     var elem = document.createElement('img');
     elem.className = 'mover';
     elem.src = "images/pizza.png";
     elem.style.height = "100px";
     elem.style.width = "73.333px";
-    elem.basicLeft = (i % cols) * s;
+    elem.style.left = (i % cols) * s + 'px';
     elem.style.top = (Math.floor(i / cols) * s) + 'px';
+    elem.basicLeft = (i % cols) * s;
     elemt.appendChild(elem);
   }
   items = document.getElementsByClassName('mover');

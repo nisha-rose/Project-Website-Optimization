@@ -493,12 +493,12 @@ var items ;
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-  //var scrollDis = document.body.scrollTop / 1250;
-  var scrollDis = window.scrollY/1250;
+  var scrollupdate = document.body.scrollTop / 1250;
+  
   //The repetative values are stored in an array
   var phases = [];
   for(var i=0;i<5;i++){
-    phases.push(Math.sin(scrollDis + i));
+    phases.push(Math.sin(scrollupdate + i));
   }
   var itemLength = items.length;
   for (var i = 0; i < itemLength; i++) {
